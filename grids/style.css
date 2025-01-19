@@ -1,0 +1,30 @@
+.container{
+    display: grid;
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-auto-flow: column;
+    /* grid-template-columns: 150px; */
+    grid-template-rows: 200px 100px 300px;
+  }
+
+.item1{
+    /* grid-row-start: 1;
+    grid-row-end: span 2; */
+    background-color: bisque;
+}
+
+.item2{
+    /* width: 200px; */
+    background-color: brown;
+}
+
+.item3{
+    /* grid-row-start: 1;
+    grid-row-end: span 3; */
+    background-color: cadetblue;
+}

@@ -1,0 +1,7 @@
+card for recipe 
+accordion to show some details
+modal to show details of recipe
+sorting option
+filtering option
+tags filtering
+saving option

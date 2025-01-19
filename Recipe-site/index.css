@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container .headerImage img {
+  width: 100vw;
+  height: 80vh;
+}
+
+.container .search {
+  margin: 30px 20px;
+  text-align: center;
+}
+
+.container .search input[type="text"] {
+  width: 50vw;
+  padding: 20px;
+}
+.recipeList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .recipeList .recipeCard {
+  width: 50vw;
+}
+
+.recipeCard {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #fff7f5;
+  width: 600px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+.recipeCard:hover {
+  box-shadow: 7px 10px 15px rgb(155 49 11);
+}
+
+.imageContainer img {
+  width: 200px;
+  height: 200px;
+  border-radius: 0px 50% 50% 0px;
+}
+.content {
+  flex-grow: 1;
+  padding-left: 15px;
+}
+.content h2 {
+  margin: 0;
+  color: #a62626;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.time {
+  color: #6c6c6c;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 14px;
+  color: #8c8c8c;
+  margin-bottom: 5px;
+}
+
+.time span {
+  font-weight: bold;
+}
+/* .cardHeader {
+  display: flex;
+} */
+.tags {
+  margin-top: 20px;
+}
+.tags span {
+  background-color: #a62626;
+  color: white;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.bookmark {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.bookmark-btn {
+  border: none;
+  font-size: 20px;
+  color: #a62626;
+  cursor: pointer;
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #fff;
+  /* margin: 15% auto; */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+/* Close button */
+/* .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} */
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* text-align: center; */
+}
+
+.modal-content{
+    position: relative;
+    margin: 15% auto;
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.modal .close{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}

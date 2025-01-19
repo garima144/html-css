@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+.container{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.container ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    /* flex-grow: 1; */
+    align-self: center;
+    text-align: center;
+}

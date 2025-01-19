@@ -1,0 +1,29 @@
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.icon-bar a {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.icon-bar a i {
+    font-size: 24px;
+    margin: auto;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
